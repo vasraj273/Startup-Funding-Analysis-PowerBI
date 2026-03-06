@@ -1,11 +1,23 @@
 # 🚀 Startup Funding Analysis (2015-2020) | Power BI
 
-**Live Dashboard:** [Insert NovyPro link here if you create one, otherwise delete this line]
+**Live Interactive Dashboard:** [Insert NovyPro link here if you create one, otherwise delete this line]
 
 ## 📌 Project Overview
 This is my first data analytics portfolio project. The goal of this project is to analyze the startup funding landscape from 2015 to 2020. This interactive Power BI dashboard provides a high-level overview for investors and stakeholders to quickly identify funding trends, top-performing industries, and key geographic hubs.
 
-![Dashboard Screenshot](Insert the image file name here, e.g., dashboard.png)
+## 📸 Dashboard Preview & Interactivity
+Here is the main view of the dashboard, along with examples of its interactive filtering capabilities:
+
+**1. Main Dashboard View**
+![Main Dashboard](startup-funding-dashboard.jpg)
+
+**2. Filtered View: Bangalore Insights**
+*(Shows how the dashboard dynamically updates when filtering for the top-funded city)*
+![Bangalore Insights](startup-funding-dashboard-bangalore.jpg)
+
+**3. Filtered View: Private Equity Insights**
+*(Shows how the dashboard dynamically updates when exploring the top investment type)*
+![Private Equity Insights](startup-funding-dashboard-pe.jpg)
 
 ## 📊 Key Insights & Findings
 Based on the dataset, here are the primary takeaways:
@@ -23,8 +35,11 @@ As a data analyst, I know that visualizations are only as good as the underlying
 * **Data Visualization:** Built dynamic KPI cards, line charts for time-series trend analysis, and standardized bar charts with clear data labels for scannability.
 
 ## 📂 Repository Contents
-* `Startup_Funding_Dashboard.pbix` - The interactive Power BI file.
-* `dataset.csv` - The raw data used for this analysis.
+* `startup-funding-dashboard.pbix` - The interactive Power BI file.
+* `startup_funding.csv` - The raw data used for this analysis.
+* `startup-funding-dashboard.jpg` - High-resolution screenshot of the main dashboard.
+* `startup-funding-dashboard-bangalore.jpg` - Screenshot demonstrating dynamic cross-filtering for Bangalore.
+* `startup-funding-dashboard-pe.jpg` - Screenshot demonstrating dynamic cross-filtering for Private Equity.
 * `README.md` - Project documentation and insights.
 
 ## 💡 What I Learned
